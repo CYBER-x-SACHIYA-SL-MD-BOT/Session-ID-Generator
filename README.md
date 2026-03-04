@@ -1,1 +1,2 @@
 # Session-ID-Generator
+🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼
