@@ -101,20 +101,23 @@ KnightBot.ev.on('connection.update', async (update) => {
 
                         // Send video thumbnail with caption
                         await KnightBot.sendMessage(userJid, {
-                            image: { url: 'https://img.youtube.com/vi/-oz_u1iMgf8/maxresdefault.jpg' },
-                            caption: `🎬 *KnightBot MD V2.0 Full Setup Guide!*\n\n🚀 Bug Fixes + New Commands + Fast AI Chat\n📺 Watch Now: https://youtu.be/NjOipI2AoMk`
+                            image: { url: 'https://ibb.co/DDqQHJ8q' },
+                            caption: `❗ 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 ❗*\n\n`
                         });
                         console.log("🎬 Video guide sent successfully");
 
                         // Send warning message
                         await KnightBot.sendMessage(userJid, {
-                            text: `⚠️Do not share this file with anybody⚠️\n 
-┌┤✑  Thanks for using Knight Bot
-│└────────────┈ ⳹        
-│©2025 Mr Unique Hacker 
-└─────────────────┈ ⳹\n\n`
+                            text: `
+❗*මෙම ෆයිල් එක සහා කොඩ් එක කිසිවෙකු හට නොදිමට වග බලා ගන්න.*❗\n 
+❗Do not share this file with anybody❗\n 
+━━━━━━━━━━━━━━━━━━━━━━━━━
+🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼
+━━━━━━━━━━━━━━━━━━━━━━━━━
+©2024 Mr Sachith Chandra
+━━━━━━━━━━━━━━━━━━━━━━━━━\n\n`
                         });
-                        console.log("⚠️ Warning message sent successfully");
+                        console.log("❗ Warning message sent successfully");
 
                         // Clean up session after use
                         console.log("🧹 Cleaning up session...");
