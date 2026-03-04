@@ -101,21 +101,19 @@ KnightBot.ev.on('connection.update', async (update) => {
 
                         // Send video thumbnail with caption
                         await KnightBot.sendMessage(userJid, {
-                            image: { url: 'https://ibb.co/DDqQHJ8q' },
+                            image: { url: 'https://image2url.com/r2/default/images/1772639673862-4b66c091-ca86-4b04-b90e-54d7a323384e.jpeg' },
                             caption: `❗ 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 ❗*\n\n`
                         });
                         console.log("🎬 Video guide sent successfully");
 
                         // Send warning message
                         await KnightBot.sendMessage(userJid, {
-                            text: `
-❗*මෙම ෆයිල් එක සහා කොඩ් එක කිසිවෙකු හට නොදිමට වග බලා ගන්න.*❗\n 
-❗Do not share this file with anybody❗\n 
-━━━━━━━━━━━━━━━━━━━━━━━━━
+                            text: `❗Do not share this file with anybody❗\n 
+━━━━━━━━━━━━━━━━━━━━━━━━
 🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼
-━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━
 ©2024 Mr Sachith Chandra
-━━━━━━━━━━━━━━━━━━━━━━━━━\n\n`
+━━━━━━━━━━━━━━━━━━━━━━━━\n\n`
                         });
                         console.log("❗ Warning message sent successfully");
 
