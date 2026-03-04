@@ -190,7 +190,7 @@ router.get("/", async (req, res) => {
                             "❌ Logged out from WhatsApp. Need to generate new QR code.",
                         );
                     } else {
-                        console.log("🔁 Connection closed — restarting...");
+                        console.log("🐼 Connection closed — restarting...");
                         initiateSession();
                     }
                 }
