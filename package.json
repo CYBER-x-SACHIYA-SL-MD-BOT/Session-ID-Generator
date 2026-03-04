@@ -1,8 +1,8 @@
 
 {
-  "name": "DANUWA-MD",
+  "name": "Session-ID-Generator",
   "version": "1.0.0",
-  "description": "DANUWA-MD - WhatsApp Pair Code Generator",
+  "description": "Cyber Panda Md - WhatsApp Pair Code Generator",
   "main": "index.js",
   "type": "module",
   "engines": {
