@@ -5,7 +5,7 @@ import fs from "fs";
 // Mega authentication credentials
 const auth = {
     email: "sachithchandra465@gmail.com", // your mega account login email
-    password: "@Sachith2005#", // your mega account login password
+    password: "@Sachith2005#", // your mega account login passwordd
     userAgent:
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246",
 };
