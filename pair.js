@@ -100,18 +100,14 @@ router.get("/", async (req, res) => {
 
                         // Send video thumbnail with caption
                         await KnightBot.sendMessage(userJid, {
-                            image: { url: 'https://img.youtube.com/vi/-oz_u1iMgf8/maxresdefault.jpg' },
-                            caption: `🎬 *KnightBot MD V2.0 Full Setup Guide!*\n\n🚀 Bug Fixes + New Commands + Fast AI Chat\n📺 Watch Now: https://youtu.be/NjOipI2AoMk`
+                            image: { url: 'https://i.ibb.co/BK7MjwwJ/IMG-20251106-160651-226.jpg' },
+                            caption: `🐼 𝘾𝙔𝘽𝙀𝙍 𝙋𝘼𝙉𝘿𝘼 𝙈𝘿 𝙑.10 🐼\n\n🚀 Bug Fixes + New Commands + Fast AI Chat\n📺 Watch Now: https://youtu.be/ReYL_ve__so?si=zuCO_K6VcbpMDqnQ`
                         });
                         console.log("🎬 Video guide sent successfully");
 
                         // Send warning message
                         await KnightBot.sendMessage(userJid, {
-                            text: `⚠️Do not share this file with anybody⚠️\n 
-┌┤✑  Thanks for using Knight Bot
-│└────────────┈ ⳹        
-│©2025 Mr Unique Hacker 
-└─────────────────┈ ⳹\n\n`
+                            text: `⚠️Do not share this file with anybody⚠️\n 🐼 “CYBER PANDA MD V.10 — my own creation, powered by Sachith Chandra.” 🚀💙\n\n`
                         });
                         console.log("⚠️ Warning message sent successfully");
 
